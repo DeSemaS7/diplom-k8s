@@ -9,5 +9,5 @@ spec:
       server: https://84.201.130.26
     stage:
         defaultNamespace: default
-        server: https://178.154.200.233
+        server: https://51.250.1.140
   vars: {}

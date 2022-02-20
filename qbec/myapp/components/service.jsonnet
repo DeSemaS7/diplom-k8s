@@ -19,7 +19,6 @@ local params = p.components.deploy;
       selector: {
         app: params.prefix + 'myapp',
       },
-      type: 'LoadBalancer',
     },
   },
 ]

@@ -24,7 +24,7 @@ local params = p.components.deploy;
         spec: {
           containers: [
             {
-              image: 'cr.yandex/crp4hhqt6ub8aeidjgsk/myapp:' + params.tag,
+              image: 'cr.yandex/crp7sq0vfi738sdlfcr5/myapp:' + params.tag,
               imagePullPolicy: 'Always',
               name: params.prefix + 'myapp',
             },
