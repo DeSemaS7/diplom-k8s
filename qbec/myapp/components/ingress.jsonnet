@@ -15,11 +15,12 @@ local params = p.components.deploy;
   },
   spec: {
     rules: [
-      {
+     {
+        host: "myapp.itsupp24.ru",
         http: {
           paths: [
             {
-              path: "/myapp",
+              path: "/",
               pathType: "Prefix",
               backend: {
                 service: {
